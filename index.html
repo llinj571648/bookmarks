@@ -1,29 +1,22 @@
-<!DOCTYPE html>
-<html lang="zh">
-<head>
-  <meta charset="UTF-8">
-  <title>Navigation</title>
-  <style>
-    body { font-family: Arial; margin: 20px; }
-    .card {
-      display: inline-block;
-      padding: 12px;
-      margin: 8px;
-      border: 1px solid #ddd;
-      border-radius: 10px;
-      width: 220px;
-    }
-    a { text-decoration: none; }
-  </style>
-</head>
+const app = document.getElementById("app");
+const data = window.data;
 
-<body>
+Object.keys(data).forEach(category => {
 
-<h1>📚 My Navigation</h1>
-<div id="app"></div>
+  const items = data[category];
 
-<script src="data.js"></script>
-<script src="app.js"></script>
+  const card = document.createElement("div");
+  card.className = "card";
 
-</body>
-</html>
+  // 跳转到你的分类页面（而不是第一个链接）
+  const pageName = category.toLowerCase() + ".html";
+
+  card.innerHTML = `
+    <a href="${pageName}">
+      <h3>${category}</h3>
+      <p>${items.length} sites</p>
+    </a>
+  `;
+
+  app.appendChild(card);
+});
