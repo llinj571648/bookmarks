@@ -1,28 +1,44 @@
-const app = document.getElementById("app");
+const sidebar = document.getElementById("sidebar");
+const content = document.getElementById("content");
 
-const data = window.data;
+// 当前分类
+let currentCategory = null;
 
-if (!data) {
-  console.error("window.data is undefined! Check data.js");
-}
+// 渲染左侧分类
+Object.keys(window.data).forEach(category => {
+  const div = document.createElement("div");
+  div.className = "category";
+  div.innerText = category;
 
-Object.keys(data || {}).forEach(category => {
+  div.onclick = () => {
+    currentCategory = category;
+    renderCategory(category);
+  };
 
-  const items = data[category];
+  sidebar.appendChild(div);
+});
 
-  const pageName = category
-    .toLowerCase()
-    .replace(/\s+/g, "_") + ".html";
+// 渲染右侧内容
+function renderCategory(category) {
+  const items = window.data[category];
 
-  const card = document.createElement("div");
-  card.className = "card";
-
-  card.innerHTML = `
-    <a href="${pageName}">
-      <h3>${category}</h3>
-      <p>${items.length} sites</p>
-    </a>
+  content.innerHTML = `
+    <h2>${category}（${items.length}）</h2>
   `;
 
-  app.appendChild(card);
-});
+  items.forEach(i => {
+    const div = document.createElement("div");
+    div.className = "item";
+
+    div.innerHTML = `
+      <a href="${i.url}" target="_blank">${i.name}</a>
+      <small>${i.desc}</small>
+    `;
+
+    content.appendChild(div);
+  });
+}
+
+// 默认打开第一个分类
+const first = Object.keys(window.data)[0];
+if (first) renderCategory(first);
