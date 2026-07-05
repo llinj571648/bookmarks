@@ -605,7 +605,7 @@ url:"https://iep.utm.edu",
 desc:"哲学百科",
 star:5
 }
-]
+],
 "War": [
     {
       name: "War on the Rocks",
@@ -1171,7 +1171,7 @@ star:5
     { name: "Cordoba Guitars", url: "https://www.cordobaguitars.com", desc: "现代古典吉他品牌", star: 4 }
   ],
 
-  "🪵 Woodworking": [
+  "Woodworking": [
     { name: "Fine Woodworking", url: "https://www.finewoodworking.com", desc: "专业木工杂志", star: 5 },
     { name: "Popular Woodworking", url: "https://www.popularwoodworking.com", desc: "木工技巧与项目", star: 4 },
     { name: "Wood Whisperer", url: "https://www.thewoodwhisperer.com", desc: "木工教学视频", star: 5 },
