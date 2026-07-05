@@ -606,7 +606,7 @@ desc:"哲学百科",
 star:5
 }
 ]
-"⚔️ War": [
+"War": [
     {
       name: "War on the Rocks",
       url: "https://warontherocks.com",
@@ -753,7 +753,7 @@ star:5
     }
   ],
 
-  "✈️ Travel": [
+  "Travel": [
     {
       name: "Lonely Planet",
       url: "https://www.lonelyplanet.com",
@@ -906,7 +906,7 @@ star:5
     }
   ],
 
-  "🤖 AI": [
+  "AI": [
     {
       name: "OpenAI",
       url: "https://openai.com",
@@ -1148,7 +1148,7 @@ star:5
       star: 4
     }
   ],
-  "🎸 Classical Guitar": [
+  "Classical Guitar": [
     { name: "Classical Guitar Shed", url: "https://www.classicalguitarshed.com", desc: "古典吉他学习与技巧教程", star: 5 },
     { name: "Delcamp Forum", url: "https://www.classicalguitardelcamp.com", desc: "全球古典吉他论坛", star: 5 },
     { name: "Scott Tennant", url: "https://www.scotttennant.com", desc: "吉他大师教学资源", star: 4 },
@@ -1217,7 +1217,7 @@ star:5
     { name: "Reading Philosophy", url: "https://www.readingphilosophy.com", desc: "哲学导读资源", star: 4 }
   ],
 
-  "🧠 Psychology": [
+  "Psychology": [
     { name: "APA", url: "https://www.apa.org", desc: "美国心理学会", star: 5 },
     { name: "Psychology Today", url: "https://www.psychologytoday.com", desc: "心理学科普与咨询", star: 5 },
     { name: "Simply Psychology", url: "https://www.simplypsychology.org", desc: "心理学基础教程", star: 5 },
@@ -1240,7 +1240,7 @@ star:5
     { name: "The Psychologist", url: "https://thepsychologist.bps.org.uk", desc: "心理学杂志", star: 4 }
   ],
 
-  "🏛 History": [
+  "History": [
     { name: "BBC History", url: "https://www.bbc.co.uk/history", desc: "英国历史媒体", star: 5 },
     { name: "History.com", url: "https://www.history.com", desc: "历史百科与纪录", star: 5 },
     { name: "World History Encyclopedia", url: "https://www.worldhistory.org", desc: "全球历史资料库", star: 5 },
@@ -1263,7 +1263,7 @@ star:5
     { name: "History Net", url: "https://www.historynet.com", desc: "历史文章与研究", star: 4 }
   ],
 
-  "📈 Economy": [
+  "Economy": [
     { name: "World Bank", url: "https://www.worldbank.org", desc: "全球发展与经济数据", star: 5 },
     { name: "IMF", url: "https://www.imf.org", desc: "国际货币基金组织", star: 5 },
     { name: "OECD", url: "https://www.oecd.org", desc: "经济合作与发展组织", star: 5 },
@@ -1286,7 +1286,7 @@ star:5
     { name: "World Inequality Database", url: "https://wid.world", desc: "收入不平等研究", star: 5 }
   ],
 
-  "🔬 Science": [
+  "Science": [
     { name: "Nature", url: "https://www.nature.com", desc: "顶级科学期刊", star: 5 },
     { name: "Science", url: "https://www.science.org", desc: "AAAS科学期刊", star: 5 },
     { name: "arXiv", url: "https://arxiv.org", desc: "预印本论文库", star: 5 },
