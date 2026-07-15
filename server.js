@@ -24,7 +24,7 @@ function generateDataJS(data) {
 }
 
 const GITHUB_CONFIG = {
-  token: "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",
+  token: "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",
   owner: "llinj571648",
   repo: "bookmarks",
   path: "data.js",
