@@ -2,7 +2,7 @@ const STORAGE_KEY = "navData";
 const GITHUB_OWNER = "llinj571648";
 const GITHUB_REPO = "bookmarks";
 const GITHUB_PATH = "data.js";
-const GITHUB_TOKEN = "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";
+const GITHUB_TOKEN = "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";
 
 const sidebar = document.getElementById("sidebar");
 const content = document.getElementById("content");
