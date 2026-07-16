@@ -5,7 +5,7 @@ window.data = {
         name: "ChinaFile",
         url: "https://www.chinafile.com",
       desc: "美国著名中国研究平台",
-      note: "123",
+      note: "666",
         star: 5
       },
       {
