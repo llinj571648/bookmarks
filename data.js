@@ -1933,7 +1933,12 @@ window.data = {
   ],
 
   "名画": [
-
+      {
+        name: "高清画作",
+        url: "https://artvee.com/artvee-pro/",
+      desc: "Get Full Access to Hi-Res Images",
+        star: 5
+      }
   ]
 
 };
